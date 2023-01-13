@@ -47,7 +47,6 @@ This template comes with sensible default configurations in the following files:
 
 ## Usage
 
-
 ### Pre Requisites
 
 Before being able to run any command, you need to create a `.env` file and set a BIP-39 compatible mnemonic as an
