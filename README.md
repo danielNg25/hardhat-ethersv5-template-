@@ -18,7 +18,7 @@ A Hardhat-based template for developing smart contract in Solidity
 
 ## Getting Started
 
-Click the [`Use this template`](https://github.com/paulrberg/hardhat-template/generate) button at the top of the page to
+Click the [`Use this template`](https://github.com/ndtr2000/solidity-hardhat-template/generate) button at the top of the page to
 create a new repository with this repo as the initial state.
 
 ## Features
