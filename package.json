@@ -41,7 +41,7 @@
         "eslint": "^8.34.0",
         "eslint-config-prettier": "^8.6.0",
         "eslint-plugin-prettier": "^4.2.1",
-        "ethers": "^6.0.8",
+        "ethers": "^5.7.2",
         "hardhat": "^2.12.7",
         "husky": "^8.0.3",
         "mocha-junit-reporter": "^2.2.0",
