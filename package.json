@@ -12,7 +12,9 @@
         "format": "prettier --config .prettierrc . --write",
         "lint:sol": "./node_modules/.bin/solhint -f table contracts/**/*.sol --fix",
         "lint": "npm run format && npm run lint:sol && npm run lint:ts",
-        "typechain": "npx hardhat typechain"
+        "typechain": "npx hardhat typechain",
+        "deploy": "npx hardhat run scripts/deploy_all.ts",
+        "verify": "npx hardhat run scripts/verify.ts"
     },
     "repository": {
         "type": "git",

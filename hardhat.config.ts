@@ -43,7 +43,12 @@ const config: HardhatUserConfig = {
         },
     },
     etherscan: {
-        apiKey: `${process.env.POLYGONSCAN_KEY}`,
+        apiKey: {
+            mainnet: `${process.env.ETHERSCAN_KEY}`,
+            bscTestnet: `${process.env.BSCSCAN_KEY}`,
+            goerli: `${process.env.ETHERSCAN_KEY}`,
+            polygonMumbai: `${process.env.POLYGONSCAN_KEY}`,
+        },
     },
     solidity: {
         compilers: [
@@ -57,7 +62,7 @@ const config: HardhatUserConfig = {
                             yul: true,
                         },
                     },
-                    viaIR: true,
+                    // viaIR: true,
                 },
             },
         ],
