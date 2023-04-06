@@ -131,6 +131,12 @@ Deploy the contracts to Hardhat Network:
 $ yarn deploy --greeting "Bonjour, le monde!"
 ```
 
+### Fix husky not executable
+```sh
+chmod ug+x .husky/*
+chmod ug+x .git/hooks/*
+```
+
 ## License
 
 [MIT](./LICENSE.md) © Nguyễn Đình Trường
