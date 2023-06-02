@@ -131,3 +131,4 @@ test-results/
 typechain-types/
 cache/
 artifacts/
+.husky/
