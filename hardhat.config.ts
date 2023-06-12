@@ -11,6 +11,7 @@ import * as dotenv from "dotenv";
 import { HardhatUserConfig } from "hardhat/types";
 import "hardhat-docgen";
 import "hardhat-gas-reporter";
+import "hardhat-contract-sizer";
 
 dotenv.config();
 
@@ -84,6 +85,12 @@ const config: HardhatUserConfig = {
         path: "./docs",
         clear: true,
         runOnCompile: false,
+    },
+    contractSizer: {
+        alphaSort: true,
+        runOnCompile: true,
+        disambiguatePaths: false,
+        only: ["VerdantMarket"],
     },
     gasReporter: {
         currency: "ETH",

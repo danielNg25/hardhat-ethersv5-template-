@@ -132,6 +132,7 @@ $ yarn deploy --greeting "Bonjour, le monde!"
 ```
 
 ### Fix husky not executable
+
 ```sh
 chmod ug+x .husky/*
 chmod ug+x .git/hooks/*
