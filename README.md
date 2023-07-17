@@ -1,4 +1,6 @@
-# Solidity Template with Hardhat [![Hardhat][hardhat-badge]][hardhat] [![License: MIT][license-badge]]
+# Solidity Template with Hardhat using EthersV5 [![Hardhat][hardhat-badge]][hardhat] [![License: MIT][license-badge]]
+
+:warning: This template uses Ethers V5 and no longer be focused on update since hardhat supported EthersV6. See [EthersV6 template](https://github.com/ndtr2000/hardhat-ethersv6-template)
 
 [hardhat]: https://hardhat.org/
 [hardhat-badge]: https://img.shields.io/badge/Built%20with-Hardhat-FFDB1C.svg
